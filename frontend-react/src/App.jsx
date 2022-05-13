@@ -7,6 +7,7 @@ import ListProduct from "./views/ListProducts/ListProduct";
 import Location from "./views/Location/Location";
 import Grid from "./views/Grid/Grid";
 import AddProduct from "./views/AddProduct/AddProduct";
+import EditProduct from "./views/EditProduct/EditProduct";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/detalle/:idProduct" element={<Detail/>}/>
         <Route path="/location" element={<Location/>}/>
         <Route path="/list" element={<ListProduct/>}/>
+        <Route path="/grilla-productos/:idProduct" element={<EditProduct/>}/>
         <Route path="/grilla-productos" element={<Grid/>}/>
         <Route path="/agregar-producto" element={<AddProduct/>}/>
 

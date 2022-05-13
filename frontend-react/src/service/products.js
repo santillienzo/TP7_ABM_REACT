@@ -43,3 +43,12 @@ export const insertProduct = async(body)=>{
         console.log(err)
     })
 }
+
+export const editProduct = async(body)=>{
+    return await axios.put(`${config.databaseUrl}/api/instrumentos/update`,
+        body
+    ).then(res=> console.log(res))
+    .catch(err=> {
+        console.log(err)
+    })
+}
