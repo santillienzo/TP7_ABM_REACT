@@ -18,7 +18,7 @@ CREATE TABLE `instrumento` (
   `instrumento` varchar(45) DEFAULT NULL,
   `marca` varchar(45) DEFAULT NULL,
   `modelo` varchar(45) DEFAULT NULL,
-  `imagen` varchar(45) DEFAULT NULL,
+  `imagen` varchar(2500) DEFAULT NULL,
   `precio` decimal DEFAULT NULL,
   `costoEnvio` decimal DEFAULT NULL,
   `cantidadVendida` integer DEFAULT NULL,
