@@ -13,6 +13,7 @@ npm run dev
 ```
 
 *Run bd
+
 Ejectuar el archivo `instrumentos_backup.sql` que se encuentra dentro de `/Backend_Node/database` en su administrador de Bases de Datos
 
 
