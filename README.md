@@ -1,10 +1,10 @@
 ##  TECNOLOGÍAS UTILIZADAS
 *Backend: Node.js y SQL
 
-*Frontend: React
+* Frontend: React
 
 ##  BACKEND
-*Run project
+* Run project
 
 ```
 cd /Backend_Node/
@@ -12,7 +12,7 @@ npm i
 npm run dev
 ```
 
-*Run bd
+* Run bd
 
 Ejectuar el archivo `instrumentos_backup.sql` que se encuentra dentro de `/Backend_Node/database` en su administrador de Bases de Datos
 
