@@ -1,5 +1,6 @@
 ##  TECNOLOGÍAS UTILIZADAS
 *Backend: Node.js y SQL
+
 *Frontend: React
 
 ##  BACKEND
